@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Bakery | בוטיק קונדיטוריה</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <header class="header bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Images/Logo.png" alt="Amit Bakery Logo" height="60">
+                    Amit Bakery
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">ראשי</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">אודות</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">המוצרים שלנו</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">שאלות נפוצות</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">צור קשר</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <h2 class="display-4 animate-on-scroll text-danger">ברוכים הבאים ל-Amit Bakery</h2>
+                    <p class="lead animate-on-scroll">קונדיטוריה בוטיק המתמחה בעוגות מעוצבות ומאפים מתוקים</p>
+                    <a href="#products" class="btn btn-primary btn-lg animate-on-scroll">גלה את היצירות שלנו</a>
+                </div>
+                <div class="col-md-6">
+                    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Images/Cake.jpg" class="d-block w-100" alt="עוגת שוקולד מפוארת">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>עוגות שוקולד עשירות בטעמים ובמרקמים</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/white.webp" class="d-block w-100" alt="מאפים מתוקים מגוונים">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>מגוון מאפים טריים ואיכותיים</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Images/pie.jpeg" class="d-block w-100" alt="עוגיות צבעוניות">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>עוגיות צבעוניות וטעימות</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-4 animate-on-scroll">הסיפור שלנו</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 animate-on-scroll">
+                    <img src="Images/THE BAKERY.jpg" alt="הקונדיטורית שלנו" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6 animate-on-scroll">
+                    <h3>אמנות האפייה בכל ביס</h3>
+                    <p>Amit Bakery נולדה מתוך אהבה עמוקה לאפייה ואמנות. הקונדיטוריה שלנו החלה את דרכה ב-2018 כמטבח ביתי קטן, והתפתחה לבוטיק קונדיטוריה המוכר באיכות ויצירתיות יוצאת דופן.</p>
+                    <p>המייסדת שלנו, שירה לוי, למדה אצל מיטב השפים בארץ ובעולם, והביאה איתה טכניקות ייחודיות וחדשניות לעולם הקונדיטוריה הישראלי.</p>
+                    <p>אנו מקפידים על שימוש בחומרי גלם טבעיים ואיכותיים, ומכינים את כל המאפים שלנו באופן טרי מדי יום. האהבה והתשוקה שלנו לאמנות הקולינרית ניכרת בכל יצירה שיוצאת מהמטבח שלנו.</p>
+                    <a href="#products" class="btn btn-outline-primary">גלה את היצירות שלנו</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-4 animate-on-scroll">המוצרים שלנו</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card h-100">
+                        <img src="Images/waffle.jpeg" class="card-img-top" alt="עוגת שוקולד">
+                        <div class="card-body">
+                            <h3 class="card-title">עוגת שוקולד בלגי</h3>
+                            <p class="card-text">עוגת שוקולד עשירה עם גנאש שוקולד מריר וקרם שוקולד חלב</p>
+                            <span class="price">₪180</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card h-100">
+                        <img src="Images/CHESSE.jpg" class="card-img-top" alt="עוגת גבינה">
+                        <div class="card-body">
+                            <h3 class="card-title">עוגת גבינה ניו-יורק</h3>
+                            <p class="card-text">עוגת גבינה קרמית במרקם נימוח, על בסיס עוגיות חמאה</p>
+                            <span class="price">₪160</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card h-100">
+                        <img src="Images/Fruit.jpg" class="card-img-top" alt="עוגת פירות">
+                        <div class="card-body">
+                            <h3 class="card-title">עוגת פירות טריים</h3>
+                            <p class="card-text">עוגת וניל עם קרם מסקרפונה ופירות העונה טריים</p>
+                            <span class="price">₪190</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card h-100">
+                        <img src="Images/CHOCHIPS.jpg" class="card-img-top" alt="עוגיות שוקולד צ'יפס">
+                        <div class="card-body">
+                            <h3 class="card-title">עוגיות שוקולד צ'יפס</h3>
+                            <p class="card-text">עוגיות חמאה רכות במילוי שוקולד צ'יפס בלגי</p>
+                            <span class="price">₪12</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card h-100">
+                        <img src="Images/MAKRUN.jpg" class="card-img-top" alt="מקרונים">
+                        <div class="card-body">
+                            <h3 class="card-title">מקרונים צרפתיים</h3>
+                            <p class="card-text">מקרונים במגוון טעמים: וניל, שוקולד, פיסטוק ופטל</p>
+                            <span class="price">₪15</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card h-100">
+                        <img src="Images/butter.jpg" class="card-img-top" alt="עוגיות חמאה">
+                        <div class="card-body">
+                            <h3 class="card-title">עוגיות חמאה</h3>
+                            <p class="card-text">עוגיות חמאה פריכות בציפוי סוכר צבעוני</p>
+                            <span class="price">₪10</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card h-100">
+                        <img src="Images/CROASON.webp" class="card-img-top" alt="קרואסון שוקולד">
+                        <div class="card-body">
+                            <h3 class="card-title">קרואסון שוקולד</h3>
+                            <p class="card-text">קרואסון חמאה במילוי שוקולד בלגי משובח</p>
+                            <span class="price">₪16</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card h-100">
+                        <img src="Images/bariosh.webp" class="card-img-top" alt="בריוש קינמון">
+                        <div class="card-body">
+                            <h3 class="card-title">בריוש קינמון</h3>
+                            <p class="card-text">לחמניות בריוש רכות במילוי קינמון וסוכר חום</p>
+                            <span class="price">₪18</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card h-100">
+                        <img src="Images/AKLER.jpg" class="card-img-top" alt="אקלר">
+                        <div class="card-body">
+                            <h3 class="card-title">אקלר</h3>
+                            <p class="card-text">אקלר במילוי קרם פטיסייר וציפוי שוקולד</p>
+                            <span class="price">₪20</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-4 animate-on-scroll">שאלות נפוצות</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item animate-on-scroll">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            האם ניתן להזמין עוגות מותאמות אישית?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            <p>בהחלט! אנו מתמחים בהכנת עוגות מותאמות אישית לכל אירוע. ניתן לבחור את הטעמים, העיצוב והגודל המתאימים לכם. אנא צרו קשר לפחות שבוע מראש כדי שנוכל להבטיח את זמינות ההזמנה.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item animate-on-scroll">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            האם יש אפשרות למוצרים ללא גלוטן?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            <p>כן, יש לנו מגוון מוצרים ללא גלוטן, כולל עוגות, עוגיות ומאפים. חשוב לציין שהם מיוצרים במטבח שבו מעובדים גם מוצרים המכילים גלוטן, אך אנו מקפידים על תהליכי עבודה נפרדים למניעת זיהום צולב.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item animate-on-scroll">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            האם יש אפשרות למשלוח?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            <p>אנו מציעים שירותי משלוח בתל אביב והסביבה. עלות המשלוח תלויה באזור. להזמנות גדולות או לאירועים, אנא צרו קשר לתיאום מראש.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item animate-on-scroll">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            האם ניתן להזמין קייטרינג לאירועים?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            <p>כן, אנו מציעים שירותי קייטרינג מתוקים לאירועים מכל הסוגים - חתונות, ימי הולדת, אירועי חברה ועוד. אנו יכולים להתאים את התפריט לפי דרישות האירוע שלכם.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-section py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-4 animate-on-scroll">צפו בנו בפעולה</h2>
+            <div class="ratio ratio-16x9 animate-on-scroll">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_om7--IxCIY?autoplay=1&si=pMbcmGkXR0Gn4kMj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-4 animate-on-scroll">מיקום הקונדיטוריה</h2>
+            <div class="ratio ratio-4x3 animate-on-scroll">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3381.5348777702316!2d34.77391401520259!3d32.07307328119236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4b82a6148a07%3A0x51fc9681209e9ed7!2z16jXl9eV15HXldeqINeU15nXqNen15XXnw!5e0!3m2!1siw!2sil!4v1617536456789!5m2!1siw!2sil" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-4 animate-on-scroll">צרו קשר</h2>
+            <div class="row">
+                <div class="col-md-6 animate-on-scroll">
+                    <h3>פרטי התקשרות</h3>
+                    <div class="info-item">
+                        <i class="bi bi-geo-alt"></i>
+                        <p>רחוב דיזנגוף 110, תל אביב</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="bi bi-telephone"></i>
+                        <p>0544505876</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="bi bi-envelope"></i>
+                        <p>amitmaman1235@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="bi bi-clock"></i>
+                        <p>א'-ה': 08:00-19:00<br>ו': 08:00-14:00<br>שבת: סגור</p>
+                    </div>
+                </div>
+                <div class="col-md-6 animate-on-scroll">
+                    <form class="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">שם מלא</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">אימייל</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">טלפון</label>
+                            <input type="tel" class="form-control" id="phone" name="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">נושא</label>
+                            <select class="form-select" id="subject" name="subject">
+                                <option value="order">הזמנה</option>
+                                <option value="question">שאלה</option>
+                                <option value="feedback">משוב</option>
+                                <option value="other">אחר</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">הודעה</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">שליחה</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-4 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/logo.png" alt="Amit Bakery Logo" height="60" class="mb-2">
+                    <h3>Amit Bakery</h3>
+                    <p>קונדיטוריה בוטיק המתמחה בעוגות מעוצבות ומאפים מתוקים</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>ניווט מהיר</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white">ראשי</a></li>
+                        <li><a href="#about" class="text-white">אודות</a></li>
+                        <li><a href="#products" class="text-white">המוצרים שלנו</a></li>
+                        <li><a href="#faq" class="text-white">שאלות נפוצות</a></li>
+                        <li><a href="#contact" class="text-white">צור קשר</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>עקבו אחרינו</h4>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank" class="text-white"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/amitmaman77/" target="_blank" class="text-white"><i class="bi bi-instagram"></i></a>
+                        <a href="https://twitter.com" target="_blank" class="text-white"><i class="bi bi-twitter"></i></a>
+                        <a href="https://pinterest.com" target="_blank" class="text-white"><i class="bi bi-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2025 Amit Bakery. כל הזכויות שמורות.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
